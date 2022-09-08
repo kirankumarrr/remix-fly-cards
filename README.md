@@ -1,4 +1,4 @@
-# Remix Indie Stack
+# Remix Indie Stack - Fly
 
 ![The Remix Indie Stack](https://repository-images.githubusercontent.com/465928257/a241fa49-bd4d-485a-a2a5-5cb8e4ee0abf)
 
@@ -35,7 +35,7 @@ Click this button to create a [Gitpod](https://gitpod.io) workspace with the pro
 ## Development
 
 - This step only applies if you've opted out of having the CLI install dependencies for you:
-  
+
   ```sh
   npx remix init
   ```
@@ -89,6 +89,7 @@ Prior to your first deployment, you'll need to do a few things:
   fly apps create remix-fly-cards
   fly apps create remix-fly-cards-staging
   ```
+
   > **Note:** Make sure this name matches the `app` set in your `fly.toml` file. Otherwise, you will not be able to deploy.
 
   - Initialize Git.
